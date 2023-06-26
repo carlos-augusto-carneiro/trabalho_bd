@@ -28,6 +28,7 @@ CREATE TABLE funcionario (
 CREATE TABLE atende(
 	codigo_fun INTEGER REFERENCES funcionario(codigo),
 	cpf        VARCHAR(11) REFERENCES doador(cpf)
+	PRIMARY KEY (codigo_fun,cpf)
 );
 
 CREATE TABLE hospital(
@@ -78,6 +79,7 @@ CREATE TABLE recebe(
 	codigo_bolsa  INTEGER REFERENCES bolsa_de_sangue(codigo),
 	data DATE,
 	hora TIME
+	PRIMARY KEY(cnpj_hospital,codigo_bolsa)
 );
 
 
