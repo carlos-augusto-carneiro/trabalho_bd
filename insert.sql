@@ -1,6 +1,6 @@
 --Doador
 
-INSERT INTO Doador (cpf, nome, idade, email, logradouro, numero, bairro, cidade, cep, tiposanguineo)
+INSERT INTO doador (cpf, nome, idade, email, logradouro, numero, bairro, cidade, cep, tiposanguineo)
 VALUES 
     ('12345678901', 'João Silva', 30, 'joao@gmail.com', 'Rua dos Bandeirantes', 123, 'Centro', 'São Paulo', '01234-567', 'A+'),
     ('23456789012', 'Maria Santos', 45, 'maria@gmail.com', 'Avenida Brasil', 456, 'Jardins', 'Rio de Janeiro', '12345-678', 'B-'),
